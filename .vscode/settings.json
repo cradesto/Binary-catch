@@ -1,0 +1,27 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/*.un~": true
+  },
+  "explorerExclude.backup": {},
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "tectonic",
+      "tools": ["tectonic"]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "tectonic",
+      "command": "tectonic",
+      "args": ["%DOC%.tex", "--outdir", "%OUTDIR%", "--synctex", "--keep-intermediates"],
+      "env": {}
+    }
+  ],
+  "latex-workshop.latex.outDir": "build",
+}
