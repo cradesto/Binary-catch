@@ -24,4 +24,5 @@
     }
   ],
   "latex-workshop.latex.outDir": "build",
+  "bitoAI.codeCompletion.enableAutoCompletion": false,
 }
